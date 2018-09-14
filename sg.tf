@@ -5,7 +5,7 @@ resource "aws_security_group" "firstsg" {
     description = "Terraform Enterprise test"
 
     tags {
-        Name  = "Terraform Enterprise test1"
+        Name  = "Terraform Enterprise fairgate"
     }
 }
 
